@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 123, 123);
+}
+#visibleView{
+    width: 95%;
+    height: 60vh;
+    background-color:rgb(238, 123, 123);
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(238, 123, 123);
+}
+#visibleView::-webkit-scrollbar{
+    display: none;
+}
+#overflowingDiv{
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 123, 123);
+    position: absolute;
+    display: grid;
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    justify-content: center;
+    grid-template-columns: repeat(2,300px);
+    /*flex-wrap: nowrap;*/
+    gap: 25px;
+    padding: 20px;
+}
+.card{
+    width: 300px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /*transition: all 0.5s;
+    flex-shrink: 0;*/
+}
+.card:hover{
+    background-size: 100% 100%;
+    transform: scale(1.1);
+}
+.card1{
+    background-image: url(../../Assets/images/apple);
+}
+.card2{
+    background-image: url(../../Assets/images/amazon.png.png);
+}
+.card3{
+    background-image: url(../../Assets/images/bike.png);
+}
+.card4{
+    background-image: url(../../Assets/images/boat.png);
+}
+.card5{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card6{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card7{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card8{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card9{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card10{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card11{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card12{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card13{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card14{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card15{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card16{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card17{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card18{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card19{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card20{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card21{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.card22{
+    background-image: url(../../Assets/images/number1.jpg);
+}
+.number{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 1px white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+#mainContainer{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(238, 123, 123);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#containerHeading{
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: white;
+    display: block;
+    width: 80%;
+    text-align: start;
+    font-variant-emoji: emoji;
+}
