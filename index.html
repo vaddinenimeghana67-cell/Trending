@@ -7,7 +7,14 @@
      <link rel="stylesheet" href="./sideways2.css">
 </head>
 <body>
-    <audio autoplay loop><source src="Audio.mpeg" type="audio/mpeg"></audio>
+   <audio id="bgMusic" loop>
+    <source src="Audio.mpeg" type="audio/mpeg">
+</audio>
+<script>
+    document.addEventListener("click", function() {
+        document.getElementById("bgMusic").play();
+    }, { once: true });
+</script>
     <div id="mainContainer">
         <span id="containerHeading">Trending Now</span>
         <div id="visibleView">
