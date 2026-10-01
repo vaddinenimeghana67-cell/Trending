@@ -53,70 +53,70 @@ body{
     transform: scale(1.1);
 }
 .card1{
-    background-image: url(../../Assets/images/apple);
+    background-image: url("apple");
 }
 .card2{
-    background-image: url(../../Assets/images/amazon.png.png);
+    background-image: url("amazon.png.png");
 }
 .card3{
-    background-image: url(../../Assets/images/bike.png);
+    background-image: url("images/bike.png");
 }
 .card4{
-    background-image: url(../../Assets/images/boat.png);
+    background-image: url("boat.png");
 }
 .card5{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card6{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card7{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card8{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card9{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card10{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card11{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card12{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card13{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card14{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card15{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card16{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card17{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card18{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card19{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card20{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card21{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .card22{
-    background-image: url(../../Assets/images/number1.jpg);
+    background-image: url("number1.jpg");
 }
 .number{
     font-size: 25px;
