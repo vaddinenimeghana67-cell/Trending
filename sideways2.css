@@ -59,7 +59,9 @@ body{
     background-image: url("amazon.png.png");
 }
 .card3{
-    background-image: url("boat.png");
+    background-image: url("boat.png")!important;
+    background-size:cover;
+    background-position:center;
 }
 .card4{
     background-image: url("boat.png");
